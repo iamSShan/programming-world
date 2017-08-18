@@ -1,0 +1,6 @@
+Basically it means we setup it in a way that it works without any cables
+
+I assume that till now you have installed Raspbian and booted Pi at least once
+
+
+
