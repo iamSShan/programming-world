@@ -1,0 +1,7 @@
+Raspberry Pi is basically a small computer that fits in your palm.It has its own OS 'Raspbian'.Other OS also exits but they are
+are made for specific projects. Noobs is second most used OS.
+
+How to setup the RaspBerry Pi 3 (basic setup ) and how to boot it first time:
+Visit this blog :
+
+https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0
