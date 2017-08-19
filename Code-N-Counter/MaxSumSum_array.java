@@ -1,5 +1,12 @@
 //Code-N-Counter Season 1  Problem
 //Max Sum Sub-array
+/* input-
+ t=1
+c[]={-1,2,3,-8,4}
+
+output- 5
+Explanation- as (3+2) contributes to max sum
+*/
 
 import java.util.Scanner;
 
