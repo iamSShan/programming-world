@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
-//Nagarro Code-N-Counter 2.0   
+//Nagarro Code-N-Counter 2.0
+/* Sample  if input: aaaabb        	Sample output: 4
+   	   if input : aaabbbbccccc   	Sample output: 5  */
+
 public class CncPartitionString {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
