@@ -4,7 +4,7 @@ import java.util.Scanner;
 /* Sample  if input: aaaabb        	Sample output: 4
    	   if input : aaabbbbccccc   	Sample output: 5  */
 
-public class CncPartitionString {
+public class PartitioningString {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		String str=sc.nextLine();
