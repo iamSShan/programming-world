@@ -7,7 +7,8 @@ Use an IDE to run it, or run through command prompt on Windows(or Linux using te
 > java classname
  (take inputs then)
 
-
+These are not all the questions which I have ever done...These are the only some of those questions which would help people to find solutions easily
+while they are practicing coding.
 Feel free to fork them and understand them.
 
 Happy Coding :)
