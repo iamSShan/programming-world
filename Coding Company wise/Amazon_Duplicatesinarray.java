@@ -1,3 +1,5 @@
+//Amazon coding round
+//Wap to input an array and count all elements which are repeated and how many times they get repeated
 
 import java.util.Scanner;
 
