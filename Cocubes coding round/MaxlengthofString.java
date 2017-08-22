@@ -1,7 +1,9 @@
+//Microsoft through cocubes
+//max number of contiguous 1 in string like 0110111110111101 o/p =5
 
 import java.util.Scanner;
 import java.util.Stack;
-public class MaxlenofString {  //max number of contiguous 1 in string like 0110111110111101 o/p =5
+public class MaxlenofString {  
 
 	/**
 	 * @param args
@@ -13,7 +15,7 @@ public class MaxlenofString {  //max number of contiguous 1 in string like 01101
 		Stack<Character> st =new Stack<Character>();
 	int i,a=0,cnt=0;
 	for(i=0;i<s.length();i++){
-		if(s.charAt(i)=='1'){
+		if(s.charAt(i)=='1'){                                //concept kind of Kadane's algo
 			st.push(s.charAt(i));
 			a++;
 		}
