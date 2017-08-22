@@ -1,7 +1,7 @@
 // Asked in cocubes (13/6/17)
+//return 0 if string is null,else count all letter and numbers in the String(ques was something like this only)  
 
 import java.util.Scanner;
-
 public class countchar {
 
 	public static void main(String[] args) {
@@ -10,6 +10,7 @@ public class countchar {
 		int a= counter(str);
 		System.out.print(a);
 	}
+//write this code
 static int counter(String str){
 int count=0,i;
 	if(str==""){
