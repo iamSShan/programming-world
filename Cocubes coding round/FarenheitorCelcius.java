@@ -1,3 +1,6 @@
+//Asked in GE digitals coding round
+//input is temp(either in C or F) and a integer ,if c=1 then temp is in Centigrade and if c=2 then temp is in Farenheit
+//if c is something else then directly return temp
 
 import java.util.Scanner;
 
