@@ -1,3 +1,5 @@
+//Wap to check whether a 1st string is subsequence of 2nd string or not
+// Accolite,Tesco
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,16 +15,19 @@ public class Subsequenceof2ndstring {
 				int a=str1.length();
 				int b=str2.length();
 	boolean abc=issubseq(str1,str2,a,b);
-		if(abc==true)	 System.out.println("yes");
+		if(abc==true)	 System.out.println("yes,");
 		else 		 System.out.println("no");
 	}
 
 static boolean issubseq(String str1,String str2,int a,int b){
 	int i,j=0; // j is index of str1
-	for(i=0;i<b&&j<a;i++)   	 
+	for(i=0;i<b&&j<a;i++)   	 //we loop str1 till length of str2
 		{if(str1.charAt(j)==str2.charAt(i))
 			j++;}
 	return (j==a) ;//if all char of str1 were found in str2
 
 }
 }
+
+
+//Time complexity is O(n) where n is length of 2nd string
