@@ -5,10 +5,10 @@ This repository contains programs which I have done from online sources and comp
 I have done these coding questions in Java.
 Use an IDE to run it, or run through command prompt on Windows(or Linux using terminal) by typing-:
 
+''' javac filename.java'''
 
-* javac filename.java
+''' java classname'''
 
-* java classname
  (take inputs then)
 
 These are not all the questions which I have ever done...These are the only some of those questions which would help people to find solutions easily
