@@ -21,7 +21,7 @@ public class LongestProgressiveSequence {
         Integer[] temp = new Integer[0];
         for (int i = 0; i < t; i++) {
             int num = sc.nextInt();
-            if (!(ls.isEmpty())) {
+            if (!(lon.isEmpty())) {
                 if (num >=lon.get(lon.size()-1 )) {
                      
                     lon.add(num);
