@@ -31,9 +31,9 @@ public class OctaltoDecimal {
 	
 	}
 
-int octDec(int n)
+public static int octDec(int n)
 {
-      Int I = 0, r, p, s = 0;
+      int i = 0, r, p, s = 0;
       while(n>0)
 {             
 r = n % l0;
