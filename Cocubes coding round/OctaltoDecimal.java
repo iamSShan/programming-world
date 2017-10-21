@@ -19,17 +19,31 @@ While converting 127 to its decimal equivalent, we start from the right, multipl
 Adding up the results together, we get 7 + 16 + 64 = 87, which is the output.
 */
 
-int OctalToDecimal(int n)
+
+import java.util.Scanner;
+
+public class OctaltoDecimal {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int c = sc.nextInt();
+		p = octDec(c);
+		System.out.print(p);
+	
+	}
+
+int octDec(int n)
 {
-      Int I=0,r,p,s=0;
+      Int I = 0, r, p, s = 0;
       while(n>0)
 {             
-r=n%l0;
-p=pow(8,i);
-s=s+p*r;
+r = n % l0;
+p = pow(8, i);
+s = s+p * r;
 i++;
-n=n/10;
+n = n/10;
 }
-Return s;
+return s;
+
+}
 
 }
