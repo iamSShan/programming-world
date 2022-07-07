@@ -1,0 +1,1 @@
+* If there are repeating numbers and one is not getting repeat or just one of the numbers is getting repeated, then in many of the cases we can use XOR for the best solution.
